@@ -49,9 +49,9 @@ gcc_register_toolchain(
 
 gcc_register_toolchain(
     name = "gcc_toolchain_armv7",
-    url = "https://toolchains.bootlin.com/downloads/releases/toolchains/armv7-eabihf/tarballs/armv7-eabihf--glibc--stable-2018.11-1.tar.bz2",
-    sha256 = "c8d4d3ca70442652e0e72f57ae6e878375640508f1e08de3152f63414c43b2e4",
-    strip_prefix = "armv7-eabihf--glibc--stable-2018.11-1",
+    url = "https://toolchains.bootlin.com/downloads/releases/toolchains/armv7-eabihf/tarballs/armv7-eabihf--glibc--stable-2021.11-1.tar.bz2",
+    sha256 = "6d10f356811429f1bddc23a174932c35127ab6c6f3b738b768f0c29c3bf92f10",
+    strip_prefix = "armv7-eabihf--glibc--stable-2021.11-1",
     target_arch = "armv7",
     binary_prefix = "arm",
     platform_directory = "arm-buildroot-linux-gnueabihf",
